@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Alkaroo",
+	"version": "0.1.0",
+	"description": "Highlights foods that trigger or alleviate GERD (Gastroesophageal Reflux Disease) symptoms on Deliveroo.",
+	"author": "Wilson Silva",
+	"content_scripts": [
+		{
+			"matches": ["*://deliveroo.co.uk/menu/*"],
+			"js": [
+				"js/foods.js",
+				"js/content_script.js"
+			],
+			"css" : [
+				"css/tooltip.css",
+				"css/highlight.css"
+			],
+			"run_at": "document_end"
+		}
+	]
+}

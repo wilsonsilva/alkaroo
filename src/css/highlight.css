@@ -1,0 +1,16 @@
+.gerd {
+  color: #fff;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 5px;
+}
+
+.gerd-forbidden {
+  background-color: #fff8bf;
+  color: #ff8100;
+}
+
+.gerd-allowed {
+  background-color: #ecf9d0;
+  color: #00a396;
+}
