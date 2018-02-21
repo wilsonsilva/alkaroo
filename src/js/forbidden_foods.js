@@ -1,27 +1,3 @@
-const ALLOWED_FOODS = [
-  'avocado',
-  'beans',
-  'banana',
-  'melon',
-  'honey',
-  'ginger',
-  'tumeric',
-  'chamomile',
-  'vinegar',
-  'tofu',
-  'fennel',
-  'parsley',
-  'celery',
-  'apples',
-  'berries',
-  'melons',
-  'bananas',
-  'peaches',
-  'pears',
-  'fish',
-  'turkey'
-];
-
 const FORBIDDEN_FOODS = [
   'bacon',
   'ham',

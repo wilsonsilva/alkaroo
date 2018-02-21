@@ -8,7 +8,8 @@
 		{
 			"matches": ["*://deliveroo.co.uk/menu/*"],
 			"js": [
-				"js/foods.js",
+				"js/allowed_foods.js",
+				"js/forbidden_foods.js",
 				"js/content_script.js"
 			],
 			"css" : [
